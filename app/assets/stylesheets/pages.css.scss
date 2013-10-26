@@ -1,3 +1,152 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main_hero_image {
+	background-image: asset-url('man_in_boat3.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 800px;
+}
+
+.main_hero_image {
+	text-align:center;
+
+}
+
+
+
+.main_hero_image h1 {
+	font-size: 84px;
+	color: #2C3539;
+	letter-spacing: 10px;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	padding-top: 100px;
+}
+
+.main_hero_image h4 {
+	font-size: 48px;
+	color: #2C3539;
+	letter-spacing: 10px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+}
+
+@media (max-width: 600px) {
+   .main_hero_image {min-height: 250px;}
+   .main_hero_image h1 {
+        font-size: 15px;
+        padding-top: 50px;
+    }
+    .main_hero_image h4 {
+        font-size: 12px;
+    }
+
+    .what_we_do h4 { font-size: 14px;}
+}
+
+.what_we_do {
+	text-align: center;
+	margin-top: -50px;
+}
+
+.what_we_do h4 {
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	font-size: 36px;
+	padding-bottom: 20px;
+	color: #121212;
+}
+
+.what_we_do_desc {
+	text-align: center;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.what_we_do_desc p {
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333333;
+}
+
+.offerings {
+	background-color: #f2f2f2;
+	min-height: 400px;
+	padding-top: 30px;
+	margin-top: 60px;
+}
+
+.three_offerings {
+	max-width: 940;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.offerings h2 {
+	text-align:center;
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	font-size: 36px;
+	padding-bottom: 20px;
+	color: #121212;
+}
+
+.offering {
+	padding-top: 20px;
+	width: 310px;
+	margin-right: 20px;
+	margin-top: 10px;
+	text-align: center;
+	float: left;
+	margin-left: 40px;
+}
+
+.offering h4 {
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	padding-bottom: 15px;
+}
+
+.offering p {
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #333333;
+}
+
+.get_in_touch {
+	text-align: center;
+	background: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.get_in_touch h4 {
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #333333;
+}
+
+#footer {
+	min-height: 20px;
+	text-align: center;
+	background-color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footer p {
+	color: #fff;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+}
