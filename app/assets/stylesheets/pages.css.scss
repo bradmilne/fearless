@@ -14,15 +14,14 @@
 
 }
 
-
-
 .main_hero_image h1 {
 	font-size: 84px;
 	color: #2C3539;
 	letter-spacing: 10px;
 	font-family: raleway, sans-serif;
-	font-weight: 400;
-	padding-top: 100px;
+	font-weight: 300;
+	padding-top: 0px;
+	margin-top: 0px
 }
 
 .main_hero_image h4 {
@@ -33,17 +32,35 @@
 	font-weight: 100;
 }
 
+.main_hero_image h5 {
+	font-size: 22px;
+	color: #C53417;
+	letter-spacing: 10px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	padding-top: 100px;
+}
+
+
 @media (max-width: 600px) {
    .main_hero_image {min-height: 250px;}
    .main_hero_image h1 {
-        font-size: 15px;
-        padding-top: 50px;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .main_hero_image h4 {
         font-size: 12px;
+        line-height: 1.4em;
     }
 
-    .what_we_do h4 { font-size: 14px;}
+    .main_hero_image h5 {
+        font-size: 14px;
+        padding-top: 250px;
+    }
+
+    .what_we_do h4 { font-size: 14px;
+    margin-top: 60px;}
 }
 
 .what_we_do {
@@ -149,4 +166,43 @@
 	font-family: raleway, sans-serif;
 	font-weight: 100;
 	font-size: 10px;
+}
+
+.barbara_photo {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.barbara_photo img {
+	padding-ottom: 20px;
+}
+
+.barbara_photo h4 {
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	font-size: 36px;
+	color: #333333;
+}
+
+.philosophy {
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.philosophy h4 {
+	letter-spacing: 4px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+	font-size: 22px;
+	color: #333333;
+}
+
+.philosophy p {
+	font-family: raleway, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #333333;
 }
