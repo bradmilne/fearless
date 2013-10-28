@@ -1,0 +1,37 @@
+
+
+
+<div class="new_contact">
+  <h4>Contact Us</h4>
+
+
+  <%= render 'layouts/messages' %>
+
+  <%= form_for(@contact, :html => { :class => "form-horizontal contact_form well" }, method: 'post') do |f| %>
+   
+  <%= f.label :name %>
+  <div>
+    <%= f.text_field :name %><br />
+  </div>
+
+  
+    <%= f.label :email %>
+  <div>
+  <%= f.text_field :email %><br />
+  </div>
+
+
+  <%= f.label :phone %>
+  <div>
+  <%= f.text_field :phone %><br />
+  </div>
+
+  <%= f.label :company %>
+  <div>
+  <%= f.text_field :company %><br /><br />
+  </div>
+<br />
+  <%= f.submit "Submit", class: "btn btn-large btn-primary" %>
+<% end %>
+
+<div>

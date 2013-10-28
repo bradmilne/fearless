@@ -11,6 +11,7 @@
 	  <div class="what_we_do_desc">
 	    <p>Fearless was founded with the belief that mentorship can unlock incredible amounts of potential in individuals and teams. We train your high-peforming individuals and teams to be fearless in their approach to their job.</p>
 	  </div>
+	  <%= image_tag 'sun_framed.png' %>
   </div>
 </div>
 
@@ -40,7 +41,7 @@
 </div>
 
 <div class="get_in_touch">
-	<h4>Get In Touch</h4>
+	<h4><%= link_to 'Get in Touch', new_contact_path %></h4>
 </div>
 
 <%= render 'layouts/footer' %>

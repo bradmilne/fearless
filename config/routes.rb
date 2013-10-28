@@ -1,7 +1,10 @@
 Fearless::Application.routes.draw do
   root "pages#index"
-  get "pages/about"
-  get "pages/contact"
+  match '/about' => "pages#about", via: [:get]
+
+  match '/contact' => 'contacts#new', via: [:get]
+
+  resources :contacts, only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
