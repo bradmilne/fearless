@@ -1,6 +1,9 @@
 Fearless::Application.routes.draw do
   root "pages#index"
-  match '/about' => "pages#about", via: [:get]
+  match '/about-barbara' => "pages#barbara", via: [:get]
+  match '/about-marlene' => "pages#marlene", via: [:get]
+
+  get '/process', to: 'pages#process'
 
   match '/contact' => 'contacts#new', via: [:get]
 

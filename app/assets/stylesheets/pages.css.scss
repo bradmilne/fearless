@@ -34,8 +34,16 @@
 	font-weight: 100;
 }
 
+.main_hero_image h3 {
+	font-size:22px;
+	color: #2C3539;
+	letter-spacing: 10px;
+	font-family: raleway, sans-serif;
+	font-weight: 100;
+}
+
 .main_hero_image h5 {
-	font-size: 22px;
+	font-size: 28px;
 	color: #C53417;
 	color: #2C3539;
 	letter-spacing: 10px;
@@ -99,6 +107,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	color: #333333;
+	padding-bottom: 20px
 }
 
 .offerings {
@@ -263,3 +272,11 @@
 .navbar-default .navbar-nav > li:last-child {
 	color: #C53417;
 }
+
+.list_style {
+	font-family: raleway, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #333333;
+	}
+
