@@ -28,7 +28,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'rails_serve_static_assets'
+gem 'rails_serve_static_assets', group: [:production]
 gem 'rails_stdout_logging'
 
 group :doc do
